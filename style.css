@@ -1,0 +1,228 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+}
+
+.container 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background: tan;
+    padding: 0 50px 0 50px;
+    border: 1px solid black;
+}
+
+.eye
+{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.eye_outside
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 100%;
+    background: white;
+}
+
+.eye_cover
+{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 100%;
+    background: black;
+    visibility: visible;
+}
+
+.eye_inside_1
+{
+    background: green;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: relative;
+}
+
+.eye_inside_2
+{
+    background: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.eye_inside_3
+{
+    background: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    position: absolute;
+    border: 1px solid yellowgreen;
+}
+
+.line
+{
+    width: 100%;
+    background: red;
+    height: 2px;
+    visibility: hidden;
+}
+
+.connection
+{
+    display: grid;
+    gap: 10px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.status
+{
+    justify-self: center;
+}
+
+#status_text
+{
+    background: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-align: center;
+}
+
+.brain
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+.brain_outside
+{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    background: pink;
+    border: 1px solid;
+    border-radius: 100%;
+}
+
+.brain_outside_2
+{
+    background: pink;
+    padding: 32px;
+    position: absolute;
+    width: 10px;
+    border-radius: 10%;
+}
+
+.brain_inside_1
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: pink;
+    border-radius: 100%;
+    margin: -25px 0px 0px 5px;
+    border: 1px solid;
+}
+
+.brain_inside_2
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: pink;
+    border-radius: 100%;
+    margin: -20px 0px 0px 30px;
+    border: 1px solid;
+}
+
+.brain_inside_3
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: pink;
+    border-radius: 100%;
+    margin: 10px 0px 0px 30px;
+    border: 1px solid;
+}
+
+.brain_inside_4
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: pink;
+    border-radius: 100%;
+    margin: 15px 0px 0px 5px;
+    border: 1px solid;
+}
+
+.brain_inside_5
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: pink;
+    border-radius: 100%;
+    margin: 10px 0px 0px -20px;
+    border: 1px solid;
+}
+
+.brain_inside_6
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: pink;
+    border-radius: 100%;
+    margin: -20px 0px 0px -20px;
+    border: 1px solid;
+}
+
+.brain_inside_7
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: pink;
+    border-radius: 100%;
+    margin: 0px 0px 0px -30px;
+    border: 1px solid;
+}
+
+.brain_inside_8
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: pink;
+    border-radius: 100%;
+    margin: 0px 0px 0px 40px;
+    border: 1px solid;
+}
