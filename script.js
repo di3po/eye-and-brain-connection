@@ -1,5 +1,5 @@
 let eye = document.getElementById("eye")
-let eye_cover = document.getElementById("eye_cover")
+let eye_outside_2 = document.getElementById("eye_outside_2")
 let brain = document.getElementById("brain")
 let line = document.getElementById("line")
 let status_text = document.getElementById("status_text")
@@ -30,14 +30,14 @@ function handleOrgansClick()
     if (eye_onclick_count == 1 && brain_onclick_count == 1)
     {
         line.style.visibility = 'visible'
-        eye_cover.style.visibility = 'hidden'
+        eye_outside_2.style.visibility = 'hidden'
         status_text.value = 'connected'
         console.log("connected")
     }
     else if (eye_onclick_count == 2 && brain_onclick_count <= 1)
     {
         line.style.visibility = 'hidden'
-        eye_cover.style.visibility = 'visible'
+        eye_outside_2.style.visibility = 'visible'
         status_text.value = 'disconnected'
         console.log("disconnected")
         eye_onclick_count = 0
