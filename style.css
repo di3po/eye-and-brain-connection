@@ -1,365 +1,481 @@
 body
 {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: grid;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: grid;
 }
 
 .space
 {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    height: 500px;
-    background: tan;
-    border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	height: 500px;
+	background: tan;
+	border: 1px solid black;
 }
 
 .container_1
 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    width: 500px;
-    height: 500px;
-    padding: 0 50px 0 50px;
-    border: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	width: 500px;
+	height: 500px;
+	padding: 0 50px 0 50px;
+	border: 1px solid black;
 }
 
 .member
 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .eye
 {
-    display: flex;
-    align-items: center;
-    width: 100px;
-    height: 100px;
+	display: flex;
+	align-items: center;
+	width: 100px;
+	height: 100px;
 }
 
 .eye_outside_1
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 50px;
-    border: 1px solid;
-    border-radius: 100%;
-    background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 50px;
+	border: 1px solid;
+	border-radius: 100%;
+	background: white;
 }
 
 .eye_inside_1
 {
-    background: green;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    position: relative;
+	background: green;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	position: relative;
 }
 
 .eye_inside_2
 {
-    background: black;
-    width: 30px;
-    height: 30px;
-    border-radius: 100%;
-    position: absolute;
+	background: black;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	position: absolute;
 }
 
 .eye_inside_3
 {
-    background: black;
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    position: absolute;
-    border: 1px solid yellowgreen;
+	background: black;
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	position: absolute;
+	border: 1px solid yellowgreen;
 }
 
 .eye_outside_2
 {
-    position: absolute;
-    width: 100px;
-    height: 50px;
-    border: 1px solid;
-    border-radius: 100%;
-    background: black;
-    visibility: visible;
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	border: 1px solid;
+	border-radius: 100%;
+	background: black;
+	visibility: visible;
 }
 
 .connection
 {
-    display: grid;
-    gap: 10px;
-    margin-top: 80px;
-    width: 100%;
+	display: grid;
+	gap: 10px;
+	margin-top: 80px;
+	width: 100%;
 }
 
 .line
 {
-    width: 100%;
-    background: red;
-    height: 2px;
-    visibility: hidden;
+	width: 100%;
+	background: red;
+	height: 2px;
+	visibility: hidden;
 }
 
 .status
 {
-    justify-self: center;
+	justify-self: center;
 }
 
 #status_text
 {
-    background: none;
-    padding: 0;
-    margin: 0;
-    border: 0;
-    text-align: center;
+	background: none;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	text-align: center;
 }
 
 .brain
 {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100px;
-    height: 100px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: 100px;
 }
 
 .brain_outside_1
 {
-    position: absolute;
-    height: 50px;
-    width: 50px;
-    margin-top: 20px;
-    background: pink;
-    border: 1px solid;
-    border-radius: 100%;
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	margin-top: 20px;
+	background: pink;
+	border: 1px solid;
+	border-radius: 100%;
 }
 
 .brain_inside_1
 {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background: pink;
-    border-radius: 100%;
-    margin: -25px 0px 0px 5px;
-    border: 1px solid;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: pink;
+	border-radius: 100%;
+	margin: -25px 0px 0px 5px;
+	border: 1px solid;
 }
 
 .brain_inside_2
 {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background: pink;
-    border-radius: 100%;
-    margin: -20px 0px 0px 30px;
-    border: 1px solid;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: pink;
+	border-radius: 100%;
+	margin: -20px 0px 0px 30px;
+	border: 1px solid;
 }
 
 .brain_inside_3
 {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background: pink;
-    border-radius: 100%;
-    margin: 10px 0px 0px 30px;
-    border: 1px solid;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: pink;
+	border-radius: 100%;
+	margin: 10px 0px 0px 30px;
+	border: 1px solid;
 }
 
 .brain_inside_4
 {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background: pink;
-    border-radius: 100%;
-    margin: 15px 0px 0px 5px;
-    border: 1px solid;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: pink;
+	border-radius: 100%;
+	margin: 15px 0px 0px 5px;
+	border: 1px solid;
 }
 
 .brain_inside_5
 {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background: pink;
-    border-radius: 100%;
-    margin: 10px 0px 0px -20px;
-    border: 1px solid;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: pink;
+	border-radius: 100%;
+	margin: 10px 0px 0px -20px;
+	border: 1px solid;
 }
 
 .brain_inside_6
 {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background: pink;
-    border-radius: 100%;
-    margin: -20px 0px 0px -20px;
-    border: 1px solid;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: pink;
+	border-radius: 100%;
+	margin: -20px 0px 0px -20px;
+	border: 1px solid;
 }
 
 .brain_inside_7
 {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background: pink;
-    border-radius: 100%;
-    margin: 0px 0px 0px -30px;
-    border: 1px solid;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: pink;
+	border-radius: 100%;
+	margin: 0px 0px 0px -30px;
+	border: 1px solid;
 }
 
 .brain_inside_8
 {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background: pink;
-    border-radius: 100%;
-    margin: 0px 0px 0px 40px;
-    border: 1px solid;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: pink;
+	border-radius: 100%;
+	margin: 0px 0px 0px 40px;
+	border: 1px solid;
 }
 
 .brain_outside_2
 {
-    background: pink;
-    padding: 32px;
-    position: absolute;
-    width: 10px;
-    border-radius: 10%;
+	background: pink;
+	padding: 32px;
+	position: absolute;
+	width: 10px;
+	border-radius: 10%;
 }
 
 .container_2
 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
-    width: 500px;
-    height: 500px;
-    padding: 0 50px 0 50px;
-    border: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: auto;
+	width: 500px;
+	height: 500px;
+	padding: 0 50px 0 50px;
+	border: 1px solid black;
 }
 
 .heart
 {
-    position: relative;
-    display: flex;
-    align-items: end;
-    justify-content: center;
-    width: 100px;
-    height: 80px;
-    border-radius: 100%;
+	position: relative;
+	display: flex;
+	align-items: end;
+	justify-content: center;
+	width: 100px;
+	height: 80px;
+	border-radius: 100%;
 }
 
 .heart_outside_1
 {
-    position: absolute;
-    background: #DC143C;
-    border-radius: 100%;
-    border: 1px solid black;
-    transform: rotate(200deg);
-    animation: heart_beat_animate .7s infinite linear alternate-reverse backwards;
+	position: absolute;
+	background: #DC143C;
+	border-radius: 100%;
+	border: 1px solid black;
+	transform: rotate(200deg);
+	animation: heart_beat_animate .7s infinite linear alternate-reverse backwards;
 }
 
 @keyframes heart_beat_animate
 {
-    0%
-    {
-        width: 70%;
-        height: 70%;
-    }
-    100%
-    {
-        width: 100%;
-        height: 100%;
-    }
+	0%
+	{
+		width: 70%;
+		height: 70%;
+	}
+	100%
+	{
+		width: 100%;
+		height: 100%;
+	}
 }
 
 .tv
 {
-    display: flex;
-    flex-direction: column;
-    justify_content: center;
-    align-items: center;
-    border: 1px solid black;
-    background: aquamarine;
-    padding: 20px;
-    border-radius: 10%;
+	display: flex;
+	flex-direction: column;
+	justify_content: center;
+	align-items: center;
+	border: 1px solid black;
+	background: aquamarine;
+	padding: 20px;
+	border-radius: 10%;
 }
 
-.heart_beat_line
+#channels
 {
-    display: flex;
-    align-items: center;
-    width: 100px;
-    height: 100px;
-    background: gray;
-    border-radius: 10%;
-    border: 1px solid black;
+	display: flex;
+	align-items: center;
+	width: 100px;
+	height: 100px;
+	background: gray;
+	border-radius: 10%;
+	border: 1px solid black;
 }
 
-.heart_beat_line_ground
+#channel_tv_1
 {
-    position: relative;
-    width: 100px;
-    height: 2px;
+	position: relative;
+	width: 100px;
+	height: 2px;
 }
 
-.line_1
+#line_1_1
 {
-    position: absolute;
-    height: 2px;
-    background: yellowgreen;
-    animation: heart_beat_line 1.5s infinite linear;
+	position: absolute;
+	height: 2px;
+	background: yellowgreen;
+	animation: heart_beat_line 1.5s infinite linear;
+}
+
+#channel_tv_2
+{
+	display: none;
+	background: chocolate;
+	width: 100px;
+	height: inherit;
+	border-radius: 10%;
+}
+
+.line_2
+{
+	width: 15px;
+}
+
+.line_2 > div
+{
+	height: 10px;
+	margin-top: 75px;
+}
+
+.line_2:nth-child(1)
+{
+	background: white;
+	border-top-left-radius: 9px;
+	border-bottom-left-radius: 9px;
+}
+
+.line_2:nth-child(1) > div
+{
+	background: red;
+}
+
+.line_2:nth-child(2)
+{
+	background: yellow;
+}
+
+.line_2:nth-child(2) > div
+{
+	background: blue;
+}
+
+.line_2:nth-child(3)
+{
+	background: cyan;
+}
+
+.line_2:nth-child(3) > div
+{
+	background: black;
+}
+
+.line_2:nth-child(4)
+{
+	background: chartreuse;
+}
+
+.line_2:nth-child(4) > div
+{
+	background: white;
+}
+
+.line_2:nth-child(5)
+{
+	background: violet;
+}
+
+.line_2:nth-child(5) > div
+{
+	background: yellow;
+}
+
+.line_2:nth-child(6)
+{
+	background: red;
+}
+
+.line_2:nth-child(6) > div
+{
+	background: cyan;
+}
+
+.line_2:nth-child(7)
+{
+	background: blue;
+}
+
+.line_2:nth-child(7) > div
+{
+	background: chartreuse;
+}
+
+.line_2:nth-child(8)
+{
+	background: black;
+	border-top-right-radius: 9px;
+	border-bottom-right-radius: 9px;
+}
+
+.line_2:nth-child(8) > div
+{
+	background: violet;
 }
 
 @keyframes heart_beat_line
 {
-    0%
-    {
-        width: 0%;
-        visibility: visible;
-    }
-    100%
-    {
-        width: 100%;
-        visibility: visible;
-        opacity: 40%;
-    }
+	0%
+	{
+		width: 0%;
+		visibility: visible;
+	}
+	100%
+	{
+		width: 100%;
+		visibility: visible;
+		opacity: 40%;
+	}
 }
 
 .tv_buttons
 {
-    display: flex;
-    margin-top: 10px;
-    height: 1px;
-    width: 50px;
-    justify-content: space-between;
+	display: flex;
+	margin-top: 10px;
+	height: 1px;
+	width: 50px;
+	justify-content: space-between;
+}
+
+.tv_button:nth-child(1)
+{
+	background: red;
 }
 
 .tv_button
 {
-    display: block;
-    background: bisque;
-    border-radius: 50%;
-    height: 10px;
-    width: 10px;
-    border: 1px solid black;
+	display: block;
+	background: bisque;
+	border-radius: 50%;
+	height: 10px;
+	width: 10px;
+	border: 1px solid black;
+}
+
+.tv_button:hover
+{
+	cursor: pointer;
+    background: azure;
+    border: 1px solid chartreuse;
 }

@@ -54,20 +54,47 @@
             <div class="member">
                 <p>TV</p>
                 <div class="tv">
-                    <div class="heart_beat_line">
-                        <div class="heart_beat_line_ground">
-                            <div class="line_1"></div>
+                    <div id="channels">
+                        <div id="channel_tv_1">
+                            <div id="line_1_1"></div>
+                        </div>
+                        <div id="channel_tv_2">
+                            <div class="line_2">
+                                <div></div>
+                            </div>
+                            <div class="line_2">
+                                <div></div>
+                            </div>
+                            <div class="line_2">
+                                <div></div>
+                            </div>
+                            <div class="line_2">
+                                <div></div>
+                            </div>
+                            <div class="line_2">
+                                <div></div>
+                            </div>
+                            <div class="line_2">
+                                <div></div>
+                            </div>
+                            <div class="line_2">
+                                <div></div>
+                            </div>
+                            <div class="line_2">
+                                <div></div>
+                            </div>
                         </div>
                     </div>
                     <div class="tv_buttons">
-                        <div class="tv_button"></div>
-                        <div class="tv_button"></div>
-                        <div class="tv_button"></div>
+                        <button class="tv_button" id="channel_btn_1" onclick="handleTvButtonsClick(id)"></button>
+                        <button class="tv_button" id="channel_btn_2" onclick="handleTvButtonsClick(id)"></button>
+                        <button class="tv_button" id="channel_btn_3" onclick="handleTvButtonsClick(id)"></button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="script_main.js"></script>
+    <script src="script_tv_buttons.js"></script>
 </body>
 </html>
