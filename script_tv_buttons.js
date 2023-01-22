@@ -1,8 +1,6 @@
 let channel_tv_1 = document.getElementById("channel_tv_1")
 let channel_tv_2 = document.getElementById("channel_tv_2")
 let channels = document.getElementById("channels")
-
-
 let turned = 'on'
 let last_channel_id = null;
 
