@@ -17,8 +17,8 @@ function handleTvButtonsClick(id)
 		}
 		else
 		{
-			if(last_channel_id != null) handleTvButtonsClick(last_channel_id)
 			turned = 'on'
+			if(last_channel_id != null) handleTvButtonsClick(last_channel_id)
 			channel_tv_1.style.display = 'block'
 			channels.style.background = 'gray'
 		}
@@ -26,16 +26,24 @@ function handleTvButtonsClick(id)
 
 	if(id == 'channel_btn_2')
 	{
-		channel_tv_1.style.display = 'none'
-		channel_tv_2.style.display = 'flex'
+		if(turned == 'off') console.log('turn on the tv, dumbass')
+		else
+		{
+			channel_tv_1.style.display = 'none'
+			channel_tv_2.style.display = 'flex'
+		}
 	}
 
 	if(id == 'channel_btn_3')
 	{
-		channel_tv_2.style.display = 'none'
-		channel_tv_1.style.display = 'block'
+		if(turned == 'off') console.log('turn on the tv, dumbass')
+		else
+		{
+			channel_tv_2.style.display = 'none'
+			channel_tv_1.style.display = 'block'
+		}
 	}
 
-	if(id != 'channel_btn_1') last_channel_id = id
+	if(id != 'channel_btn_1' && turned == 'on') last_channel_id = id
 	console.log('watched this at last', last_channel_id)
 }
