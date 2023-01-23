@@ -458,11 +458,6 @@ body
 	justify-content: space-between;
 }
 
-.tv_button:nth-child(1)
-{
-	background: red;
-}
-
 .tv_button
 {
 	display: block;
