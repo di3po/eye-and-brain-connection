@@ -479,3 +479,105 @@ body
     background: azure;
     border: 1px solid chartreuse;
 }
+
+.container_3
+{
+	display: flex;
+	flex-direction: row;
+	/*justify-content: space-between;*/
+	align-items: center;
+	margin: auto;
+	width: 500px;
+	height: 500px;
+	padding: 0 50px 0 50px;
+	border: 1px solid black;
+}
+
+
+.my_hand
+{
+	width: 17px;
+	/*height: 30px;
+	border-radius: 100%;
+	border: 1px solid black;
+	background: antiquewhite;*/
+}
+
+.my_finger
+{
+	height: 30px;
+	width: 10px;
+	border-radius: 40%;
+	/*border: 1px solid black;*/
+	background: antiquewhite;
+	position: absolute;
+	margin-top: 20px;
+	margin: auto;
+	margin-top: 20px;
+	margin-left: 2px;
+	/*transform: rotate(-30deg);*/
+	animation: finger_1_walk .7s infinite linear alternate-reverse backwards;
+}
+
+.my_finger_2
+{
+	height: 30px;
+	width: 10px;
+	border-radius: 40%;
+	/*border: 1px solid black;*/
+	background: antiquewhite;
+	position: relative;
+	margin-top: 20px;
+	margin: auto;
+	margin-top: 20px;
+	/*transform: rotate(30deg);*/
+	animation: finger_2_walk .7s infinite linear alternate-reverse backwards;
+}
+
+.my_arm
+{
+	height: 30px;
+	width: 36px;
+	border-radius: 50%;
+	/*border: 1px solid black;*/
+	background: antiquewhite;
+	margin-top: -46px;
+	position: absolute;
+	margin-left: -4px;
+	transform: rotate(-30deg);
+}
+
+.my_arm_arm
+{
+	height: 20px;
+	width: 56px;
+	border-radius: 10%;
+	/*border: 1px solid black;*/
+	background: antiquewhite;
+	margin-top: -47px;
+	margin-left: 10px;
+}
+
+@keyframes finger_1_walk
+{
+	0%
+	{
+		transform: rotate(-30deg);
+	}
+	100%
+	{
+		transform: rotate(30deg);
+	}
+}
+
+@keyframes finger_2_walk
+{
+	0%
+	{
+		transform: rotate(30deg);
+	}
+	100%
+	{
+		transform: rotate(-30deg);
+	}
+}
