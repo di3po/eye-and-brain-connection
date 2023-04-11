@@ -496,6 +496,7 @@ body
 .my_hand
 {
 	width: 17px;
+	animation: hand_walk 4.9s infinite linear alternate-reverse forwards;
 }
 
 .my_finger
@@ -568,5 +569,33 @@ body
 	100%
 	{
 		transform: rotate(-30deg);
+	}
+}
+
+@keyframes hand_walk
+{
+	0%
+	{
+		margin-left: 0px;
+	}
+	20%
+	{
+		margin-left: 86px;
+	}
+	40%
+	{
+		margin-left: 172px;
+	}
+	60%
+	{
+		margin-left: 258px;
+	}
+	80%
+	{
+		margin-left: 344px;
+	}
+	100%
+	{
+		margin-left: 430px;
 	}
 }
